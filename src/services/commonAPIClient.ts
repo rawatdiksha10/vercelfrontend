@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { removeCookie } from '../util/cookieService';
 import { RouterPath } from '../util/enum/Enum';
-let baseUrl: string = 'http://localhost:5000';
-
+// let baseUrl: string = 'http://localhost:5000';
+let baseUrl: string = 'https://backendtrial3.vercel.app/';
 
 export async function httpGet(navigate: any, path: string) {
     var data = null;
