@@ -205,7 +205,7 @@ const EngineerList = () => {
                       </Modal.Header>
                       <Modal.Body>ユーザー: {selectedUserId} を削除してもよろしいですか？</Modal.Body>
                       <Modal.Footer>
-                      <Button id = {userData['userid']} variant="danger" onClick={handleConfirmDelete}>
+                      <Button  variant="danger" onClick={handleConfirmDelete}>
                           はい
                         </Button>
                         <Button variant="secondary" onClick={handleCancelDelete}>
