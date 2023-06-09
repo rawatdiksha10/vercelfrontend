@@ -31,10 +31,10 @@ function Home() {
 
   ////////diksha
 
-  const handleClick = (id: any) => {
+  const handleClick = (getid: any) => {
 
-    console.log("id"+id);
-      fetchEnggInfoByID(id);
+    console.log("id"+getid);
+      fetchEnggInfoByID(getid);
   };
 
 
