@@ -5,7 +5,7 @@ import { logout } from "../../services/accoutService";
 import { removeCookie } from "../../util/cookieService";
 import { Role, RouterPath } from "../../util/enum/Enum";
 import { User } from "../../models/user";
-import userIcon from "../../../src/user128.png";
+// import userIcon from "../../../src/user128.png";
 
 
 interface NavitationProps {
