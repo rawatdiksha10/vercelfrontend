@@ -161,7 +161,7 @@ function Home() {
                                         </Form.Label>
                                     </Col>
                                     <Col sm={2}>
-                                        <Form.Control type="text"   readOnly  value={typeof enggData === 'object' && Object.keys(enggData).length > 0 && enggData?.statusname}/>
+                                        <Form.Control type="text"  name="status"  readOnly  value={typeof enggData === 'object' && Object.keys(enggData).length > 0 && enggData?.statusname}/>
                                     </Col>
                                     <Col sm={2}></Col>
                                     <Col sm={3}>
@@ -170,7 +170,7 @@ function Home() {
                                         </Form.Label>
                                     </Col>
                                     <Col sm={2}>
-                                        <Form.Control type="text" placeholder=""   readOnly value={typeof enggData === 'object' && Object.keys(enggData).length > 0 && enggData?.hourlywage}  />
+                                        <Form.Control type="text" placeholder=""  name="wage"  readOnly value={typeof enggData === 'object' && Object.keys(enggData).length > 0 && enggData?.hourlywage}  />
                                     </Col>
                                 </Row>
                                 <Row className="mb-3"></Row>
@@ -181,7 +181,7 @@ function Home() {
                                         </Form.Label>
                                     </Col>
                                     <Col sm={2}>
-                                        <Form.Control type="text" placeholder=""  readOnly value={typeof enggData === 'object' && Object.keys(enggData).length > 0 && enggData?.totalexp} />
+                                        <Form.Control type="text" placeholder=""  name="exp1"  readOnly value={typeof enggData === 'object' && Object.keys(enggData).length > 0 && enggData?.totalexp} />
                                     </Col>
                                     <Col sm={2}></Col>
                                     <Col sm={3}>
@@ -190,7 +190,7 @@ function Home() {
                                         </Form.Label>
                                     </Col>
                                     <Col sm={2}>
-                                        <Form.Control type="text" placeholder=""   readOnly value={typeof enggData === 'object' && Object.keys(enggData).length > 0 && enggData?.jpexp} />
+                                        <Form.Control type="text" placeholder=""  name="exp2"  readOnly value={typeof enggData === 'object' && Object.keys(enggData).length > 0 && enggData?.jpexp} />
                                     </Col>
                                 </Row>
                                 
@@ -290,7 +290,7 @@ function Home() {
                                 </Row>
                                 <Row className='mb-3'>
                                     <Col>
-                                        <Form.Control as="textarea" rows={4}  readOnly value={typeof enggData === 'object' && Object.keys(enggData).length > 0 && enggData?.techskill}/>
+                                        <Form.Control as="textarea" rows={4} name="itskill"  readOnly value={typeof enggData === 'object' && Object.keys(enggData).length > 0 && enggData?.techskill}/>
                                     </Col>
                                 </Row>
                                 <Row className="mb-3"></Row>
