@@ -156,7 +156,7 @@ function Home() {
                             <Container>
                                 <Row className="mb-3">
                                     <Col sm={3}>
-                                        <Form.Label for="status">
+                                        <Form.Label>
                                             ステータス
                                         </Form.Label>
                                     </Col>
@@ -165,7 +165,7 @@ function Home() {
                                     </Col>
                                     <Col sm={2}></Col>
                                     <Col sm={3}>
-                                        <Form.Label for="wage">
+                                        <Form.Label>
                                             時給
                                         </Form.Label>
                                     </Col>
@@ -176,7 +176,7 @@ function Home() {
                                 <Row className="mb-3"></Row>
                                 <Row className="mb-3">
                                     <Col sm={3}>
-                                        <Form.Label for="exp1">
+                                        <Form.Label>
                                             実務経験
                                         </Form.Label>
                                     </Col>
@@ -185,7 +185,7 @@ function Home() {
                                     </Col>
                                     <Col sm={2}></Col>
                                     <Col sm={3}>
-                                        <Form.Label for="exp2">
+                                        <Form.Label>
                                             日本企業勤務経験
                                         </Form.Label>
                                     </Col>
@@ -283,7 +283,7 @@ function Home() {
                                 <Row className="mb-1"></Row>
                                 <Row>
                                     <Col>
-                                        <Form.Label for="itskill">
+                                        <Form.Label>
                                             技術スキル
                                         </Form.Label>
                                     </Col>
