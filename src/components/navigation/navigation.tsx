@@ -7,6 +7,7 @@ import { Role, RouterPath } from "../../util/enum/Enum";
 import { User } from "../../models/user";
 import userIcon from "../../../src/user128.png";
 
+
 interface NavitationProps {
   loggedInUser: User | null
 }
@@ -36,7 +37,7 @@ const Navigation = ({loggedInUser} : NavitationProps) => {
               
                 <div>
                     <Link to={RouterPath.CreateAccount} style={{ paddingRight:'12px', paddingLeft:'2px' }}>
-                      <img src={userIcon} alt="Edit" width={24} height={24}/>
+                      {/* <img src={userIcon} alt="Edit" width={24} height={24}/> */}
                     </Link>
                     <Link to={RouterPath.PasswordReset} style={{ color: "#ffffff", paddingRight:'12px', paddingLeft:'2px' }}>
                       <FaBell></FaBell>
